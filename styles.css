@@ -1,0 +1,192 @@
+/* css reset */
+
+
+/* CSS reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    margin: auto;
+    width: 22rem;
+    height: 37rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+}
+
+h2 {
+    margin: 1.5rem;
+    padding-top: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    margin: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    border-top: 0.5px solid hsl(215, 32%, 27%);
+    margin: 0 1.5rem;
+}
+
+.nftpic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    width: 19rem;
+    height: 19rem;
+    border-radius: 1rem;
+}
+
+.nftinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+
+.nftprice {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.nftdate {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.ethereum {
+    width: 11px;
+    height: 18px;
+}
+
+.clock {
+    width: 17px;
+    height: 17px;
+}
+
+.author {
+    margin: 1rem 1.5rem;
+}
+
+.creatorimg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2rem;
+    height: 2rem;
+}
+
+.creator {
+    display: inline-block;
+    margin-left: 1rem;
+    vertical-align: middle;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+}
+
+.creator span {
+    color: hsl(215, 51%, 70%);
+}
